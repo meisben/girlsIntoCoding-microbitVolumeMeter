@@ -42,12 +42,8 @@ The idea with this acitivity isn't to become an ACE programmer inside 2 hours, b
 <ul class="list-group">
   <a href="https://www.w3schools.com/python/" target="_blank" class="list-group-item list-group-item-action">Python tutorials at W3 Schools</a>
   <a href="https://www.pythoncheatsheet.org/" target="_blank" class="list-group-item list-group-item-action">Python cheatsheet</a>
-  <a href="https://www.cyberbotics.com/doc/reference/index" target="_blank" class="list-group-item list-group-item-action">Webots documentation</a>
-  <a href="https://robohub.org/30-women-in-robotics-you-need-to-know-about-2019/" target="_blank" class="list-group-item list-group-item-action">30 women in robotics you need to know about – 2019</a>
 </ul>
 </div>
-
-
 
 <!--Comment: This is the end of html bootstrap-->
 
@@ -58,7 +54,7 @@ The idea with this acitivity isn't to become an ACE programmer inside 2 hours, b
 
 <!--Comment: This section is markdown again-->
 
-# What exactly are robot behaviours?
+# Let's boot up the microbit and check it is working
 ---
 
 <!--Comment: End of markdown-->
@@ -73,19 +69,33 @@ The idea with this acitivity isn't to become an ACE programmer inside 2 hours, b
 
 
 <!--Comment: Back to markdown -->
+*Note: in all of the following activities you can choose to use python or MakeCode blocks for programming the micro:bit. Choose whatever you feel is the right language for your level*
 
-* Let's take a look at what robot behaviours are!
-* Navigate to the [robotbenchmark](https://robotbenchmark.net/) website.
-* Click on the **Start** button next to the **Pick and place** activity
-* You should see the scene below
+First lets check you have the right equipment, you should find the following items in your box
+* 1 x Micro:bit
+* 1 x USB cable
+* 1 x Kitronik robotics board
+* 1 x Battery pack
+* 1 x Sound level indicator (wooden laser cut)
+* 1 x Servo motor and stand
+* 1 x Servo motor arm
+
+First lets get familiar with the micro:bit! If you haven't used one before then take a look at this video
+
+<iframe width="852" height="479" src="https://www.youtube.com/embed/u2u7UJSRuko" title="Introduction to the BBC micro:bit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+
+Follow these instructions to check your micro:bit is working
+* Plug your microbit into the computer using the supplied usb lead
+* Browse to the website [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* Click on *New Project*
+* Name it 'helloWorld' or something else you choose
+* Let's write our first program
+  * You can select you programming language from the top of the page. To select python click on the dropdown and select python.
+  * Let's write some code to make the microbit display a smiley face
+
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_2twamX0Vt3Dv" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
   
-
-![image0](images/pickAndPlaceScreenText.jpg)
-
-
-* Have a look at the simulation at the top right hand side of the screen
-* How many behaviours can you see in the robot? Let's discuss this together
-* Some example answers are below
 
 
 <!-- <br>
