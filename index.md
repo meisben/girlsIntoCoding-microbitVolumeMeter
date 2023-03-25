@@ -26,6 +26,7 @@ The idea with this acitivity isn't to become an ACE programmer inside 2 hours, b
 <div class="container p-3 my-3 bg-primary">
 <h2>Contents</h2>
 <ul class="list-group">
+  <li class="list-group-item"><a href="#Begin">Begin: Check you have the right equipment</a></li>
   <li class="list-group-item"><a href="#Activity1">Activity 1: Let's boot up the microbit and check it is working</a></li>
   <li class="list-group-item"><a href="#Activity2">Activity 2: How do we measure a sound?</a></li>
   <li class="list-group-item"><a href="#Activity3">Activity 3: Display a chart displaying the volume of the sound</a></li>
@@ -61,17 +62,16 @@ The idea with this acitivity isn't to become an ACE programmer inside 2 hours, b
 
 <!--Comment: Back to html bootstrap -->
 
-<div id="Activity1" class="container p-3 my-3 bg-primary text-primary">
-<h2>Activity #1</h2>
+<div id="Begin" class="container p-3 my-3 bg-primary text-primary">
+<h2>Begin</h2>
 </div>
 
 <!--Comment: End of html bootstrap -->
 
-
 <!--Comment: Back to markdown -->
-*Note: in all of the following activities you can choose to use python or MakeCode blocks for programming the micro:bit. Choose whatever you feel is the right language for your level*
 
 First lets check you have the right equipment, you should find the following items in your box
+
 * 1 x Micro:bit
 * 1 x USB cable
 * 1 x Kitronik robotics board
@@ -80,12 +80,28 @@ First lets check you have the right equipment, you should find the following ite
 * 1 x Servo motor and stand
 * 1 x Servo motor arm
 
+
+<!--Comment: End of markdown-->
+
+<!--Comment: Back to html bootstrap -->
+
+<div id="Activity1" class="container p-3 my-3 bg-primary text-primary">
+<h2>Activity #1</h2>
+</div>
+
+<!--Comment: End of html bootstrap -->
+
+
+<!--Comment: Back to markdown -->
 First lets get familiar with the micro:bit! If you haven't used one before then take a look at this video
 
 <iframe width="852" height="479" src="https://www.youtube.com/embed/u2u7UJSRuko" title="Introduction to the BBC micro:bit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 </iframe>
 
-Follow these instructions to check your micro:bit is working
+*Note: in all of the following activities you can choose to use python or MakeCode blocks for programming the micro:bit. Choose whatever you feel is the right language for your level*
+
+# Follow these instructions to check your micro:bit is working
+
 * Plug your microbit into the computer using the supplied usb lead
 * Browse to the website [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * Click on *New Project*
@@ -94,10 +110,8 @@ Follow these instructions to check your micro:bit is working
   * You can select you programming language from the top of the page. To select python click on the dropdown and select python.
   * Let's write some code to make the microbit display a smiley face
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_2rWKbj87bKsg" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_WPcUfoRfpUpg" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
   
-
-
 <!-- <br>
 
 <div class="container">
