@@ -115,6 +115,9 @@ The features highlighted here are:
 
 [![languageChange](images/change_makeCode_language.png)](https://makecode.microbit.org/)
 
+## How to download your code to your micro:bit
+There are two options (explained on this [page](https://microbit.org/get-started/first-steps/set-up/)). If you don't know - just ask a mentor
+
 <!--Comment: End of markdown-->
 
 <!--Comment: Paragrpah spacing-->
@@ -144,6 +147,7 @@ The features highlighted here are:
 
 * You can select you programming language from the top of the page. To select python click on the dropdown and select python.
 * Let's write some code to make the microbit display a smiley face when the program starts
+* When you have finished - download it to you micro:bit (follow the instructions here)
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_WPcUfoRfpUpg" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 <br>
@@ -152,36 +156,23 @@ The features highlighted here are:
 * Microcontrollers work using a 'forever loop'
 * Let's write a function to make the face switch between sad and happy in the forever loop
 
-<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_9HTKx45VD6Rz" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_8e016aKRbcUx" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 <br>
 
 ### Let's program a button input
 * We can use buttons as inputs
-* Let's use the buttons to make the face switch between happy and sad
+* Let's use the following to nake the face switch between happy and sad:
+  * Buttons
+  * An if statement
+  * A variable called 'state'
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_JRh2FkicqE9U" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<br>
   
-<!-- <br>
-
-<div class="container">
-  <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo0a">Example Answer</button>
-  <div id="demo0a" class="collapse" markdown="1">
-
-* Moving forward
-* Moving the robot arm
-* Picking up an object
-* Turning
-* Dropping an object
-
-  </div>
-</div>
-
-<br> -->
-
 
 <!--Comment: This section is markdown again-->
 
-# How do we program robot behaviours?
+# How do we measure a sound?
 ---
 
 <!--Comment: End of markdown-->
@@ -197,19 +188,24 @@ The features highlighted here are:
 
 <!--Comment: Back to markdown -->
 
-Before we start to use the robot simulation, we're going to take a look at how we program simple robot behaviours in python! We can use this method in any programming language. We're going to be using if statements, functions and loops :) 
+### We can measure sound on the microbit and see it on the computer screen
+* Write the program below
+* This uses serial communication to send the sound value the micro:bit measures back to the computer so that we can look at it on the computer screen
+* Try it out in the simulator first
+* Then try it out for real on your micro:bit
+  * **Note** *you need to be [connected](https://microbit.org/get-started/first-steps/set-up/) to the micro:bit for this to work*
 
-We'll be using [ASCII Art](https://www.asciiart.eu/) to illustrate these concepts !! Because it's a really simple and fun way to introduce the topic.
 
-If you get stuck at all, a great python tutorial resource is [here](https://www.w3schools.com/python/)!
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_H2MCuTK7gUHt" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<br>
 
-![image0](images/ASCII_art_example.png)
+### Now lets also visualise the sound measurement
+* Write the program below
+* This program allows us to plot a graph on the micro:bit leds to show how loud the sound is!
+* Check it is working correctly
+* If not, then use the troubleshooting program below
 
-Let's have a look at how to program robot behaviours together!
-* [(1) Robot behaviours with IF statements in python](https://repl.it/join/koipvszj-meisben)
-* [(2) Robot behaviours with functions in python](https://repl.it/join/gznuzhur-meisben)
-* [(3) Changing robot behaviours in python](https://repl.it/join/dighdlzf-meisben)
-* [(4) Robot behaviours with loops in python](https://repl.it/join/rmbdmrny-meisben)
+
 
 
 
