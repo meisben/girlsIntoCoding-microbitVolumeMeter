@@ -140,16 +140,18 @@ The features highlighted here are:
 
 <!--Comment: Back to markdown -->
 
+### Let's write our first program
 
-
-
-### Follow these instructions to check your micro:bit is working
-
-* Now let's write our first program
-  * You can select you programming language from the top of the page. To select python click on the dropdown and select python.
-  * Let's write some code to make the microbit display a smiley face
+* You can select you programming language from the top of the page. To select python click on the dropdown and select python.
+* Let's write some code to make the microbit display a smiley face when the program starts
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_WPcUfoRfpUpg" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+
+### Let's make the face change
+* Microcontrollers work using a 'forever loop'
+* Let's write a function to make the face switch between sad and happy in the forever loop
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_9HTKx45VD6Rz" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
   
 <!-- <br>
 
