@@ -70,7 +70,7 @@ The idea with this acitivity isn't to become an ACE programmer inside 2 hours, b
 
 <!--Comment: Back to markdown -->
 
-First lets check you have the right equipment, you should find the following items in your box
+## First lets check you have the right equipment, you should find the following items in your box
 
 * 1 x Micro:bit
 * 1 x USB cable
@@ -80,6 +80,40 @@ First lets check you have the right equipment, you should find the following ite
 * 1 x Servo motor and stand
 * 1 x Servo motor arm
 
+## About the Micro:bit
+If you haven't used one before then take a look at this video
+
+<iframe width="852" height="479" src="https://www.youtube.com/embed/u2u7UJSRuko" title="Introduction to the BBC micro:bit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+</iframe>
+
+## Go to Microsoft MakeCode
+* Plug your microbit into the computer using the supplied usb lead
+* Browse to the website [https://makecode.microbit.org/](https://makecode.microbit.org/)
+* Click on *New Project*
+* Name it 'helloWorld' or something else you choose
+
+## Tour of Microsoft MakeCode
+* Simulator - on the left side of the screen, you will see a virtual micro:bit that will show what your program will look like running on a micro:bit. This is helpful for debugging, and instant feedback on program execution. 
+* Toolbox - in the middle of the screen, there are a number of different categories, each containing a number of blocks that can be dragged into the programming workspace on the right.
+* Workspace - on the right side of the screen is the Programming Workspace where you will create your program. Programs are constructed by snapping blocks together in this area.
+
+[![ideTour](images/ide-tour.png)](https://makecode.microbit.org/)
+
+The features highlighted here are:
+
+1. Go to the Home Screen to start a new project or open an existing project
+2. Simulator shows what your program will look like when running on a micro:bit
+3. Hide or Show the simulator pane
+4. Program in either Blocks or JavaScript
+5. Programming Workspace where you will build you program
+6. Blocks Toolbox
+7. Download your program to the micro:bit
+8. Name your project and Save it on your computer
+
+
+*Note: in all of the following activities you can choose to use python or MakeCode blocks for programming the micro:bit. Choose whatever you feel is the right language for your level*
+
+[![languageChange](images/change_makeCode_language.png)](https://makecode.microbit.org/)
 
 <!--Comment: End of markdown-->
 
@@ -105,24 +139,17 @@ First lets check you have the right equipment, you should find the following ite
 
 
 <!--Comment: Back to markdown -->
-First lets get familiar with the micro:bit! If you haven't used one before then take a look at this video
 
-<iframe width="852" height="479" src="https://www.youtube.com/embed/u2u7UJSRuko" title="Introduction to the BBC micro:bit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-</iframe>
 
-*Note: in all of the following activities you can choose to use python or MakeCode blocks for programming the micro:bit. Choose whatever you feel is the right language for your level*
 
-# Follow these instructions to check your micro:bit is working
 
-* Plug your microbit into the computer using the supplied usb lead
-* Browse to the website [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* Click on *New Project*
-* Name it 'helloWorld' or something else you choose
-* Let's write our first program
+### Follow these instructions to check your micro:bit is working
+
+* Now let's write our first program
   * You can select you programming language from the top of the page. To select python click on the dropdown and select python.
   * Let's write some code to make the microbit display a smiley face
 
-<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_WPcUfoRfpUpg" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_WPcUfoRfpUpg" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
   
 <!-- <br>
 
