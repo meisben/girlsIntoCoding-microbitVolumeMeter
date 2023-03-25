@@ -2,9 +2,9 @@
 
 [![logoPicture](images/girlsIntoCodingLogo.jpg)](https://www.girlsintocoding.com/)
 
-A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) using a online version of the free open source [Webots](https://www.cyberbotics.com/) robot simulator.
+A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) using a microbit and the Kitronik robotics board
 
-This activity is generated as a webpage at [https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity3/](https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity3/)
+This activity is generated as a webpage at [https://meisben.github.io/girlsIntoCoding-microbitVolumeMeter/](https://meisben.github.io/girlsIntoCoding-microbitVolumeMeter/)
 
 ## Contents
 
@@ -15,18 +15,15 @@ This activity is generated as a webpage at [https://meisben.github.io/girlsIntoC
 - Help and updates
 
 ## Overview
-
-This activity uses [robotbenchmark](https://robotbenchmark.net/), which is a online version of the [Webots](https://www.cyberbotics.com/) simulator. 
-
-![Activity2Picture](images/image1.png)
+The goal of this activity is to show students how to use a servo motor to indicate the volume of a sensed noise.
 
 ## Accessing the activity webpage
 
-Simply point your browser to [https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity3/](https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity3/)
+Simply point your browser to [https://meisben.github.io/girlsIntoCoding-microbitVolumeMeter/](https://meisben.github.io/girlsIntoCoding-microbitVolumeMeter/)
 
 ## Contributing
 
-Feel free very welcome to contribute if you find any errors in this activity, by initiating a pull request
+Feel free very welcome to contribute if you find any errors in this activity, by initiating an issue or pull request
 
 ## Credit
 
@@ -34,4 +31,4 @@ This activity uses bootstrap in the github pages website, thanks to [https://nic
 
 ## Help and updates
 
-If you have any difficulty with the activity please all initiate a pull request to contact for any help :)
+If you have any difficulty with the activity please all initiate an issue and i'll be happy to help :)
