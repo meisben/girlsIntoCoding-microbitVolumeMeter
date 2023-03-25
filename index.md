@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Robots & Behaviours
+title: Volume Meter using the MicroBit
 ---
 
 <!--Comment: Above here is the header, we need this to generate the web page-->
@@ -9,29 +9,11 @@ title: Robots & Behaviours
 
 [![logoPicture](images/girlsIntoCodingLogo.jpg)](https://www.girlsintocoding.com/)
 
-A project activity for [Girls Into Coding](https://www.girlsintocoding.com/) using a online version of the free open source [Webots](https://www.cyberbotics.com/) robot simulator.
+A project activity for [Girls Into Coding](https://www.girlsintocoding.com/)
 
-<!--Comment: End of markdown section-->
+This session is designed to be fun! The idea is that we can follow it together in a class, but that we can also be free to move at our own pace. We're going to be doing some basic python programming in this activity. You also have the opportunity to use the make code block based programming language. So whatever your level, you have lots of options! 
 
-<!--Comment: This is html bootstrap-->
-
-<div id="sessionLinkPanel" class="container p-3 my-3 bg-warning">
-<h2>Activity series</h2> 
-  <p>This activity session is part of a series on simulating robots, you can see links to all the activities in this series below!</p>
-<ul class="list-group">
-  <a href="https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity/" target="_blank" class="list-group-item list-group-item-action"><b>Session 1:</b> Intro to robot simulation</a>
-  <a href="https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity2/" target="_blank" class="list-group-item list-group-item-action"><b>Session 2:</b> Pick and place with a robot arm</a>
-  <a href="https://meisben.github.io/girlsIntoCoding-robotbenchmark-activity3/" target="_blank" class="list-group-item list-group-item-action"><b>Session 3:</b> Robots & Behaviours</a>
-</ul>
-</div>
-
-<!--Comment: This is the end of html bootstrap-->
-
-<!--Comment: This section is markdown-->
-
-This session is designed to be fun! The idea is that we can follow it together online, but that we can be free to move at our own pace. We're going to be doing some basic python programming in this activity. If you're not too familiar with Python, don't worry, you'll be able to follow along :) !
-
-The idea with this acitivity isn't to become an ACE python programmer in 1 hour, but it's just to get an **appreciation** of programming robots. So that you can use this knowledge for good in the future :)! 
+The idea with this acitivity isn't to become an ACE programmer inside 2 hours, but it's just to get an **appreciation** of programming robots. So that you can use this knowledge for good in the future :)! 
 
 <!--Comment: End of markdown section-->
 
@@ -44,16 +26,13 @@ The idea with this acitivity isn't to become an ACE python programmer in 1 hour,
 <div class="container p-3 my-3 bg-primary">
 <h2>Contents</h2>
 <ul class="list-group">
-  <li class="list-group-item"><a href="#Activity1">Activity 1: What exactly are robot behaviours?</a></li>
-  <li class="list-group-item"><a href="#Activity2">Activity 2: How do we program robot behaviours?</a></li>
-  <li class="list-group-item"><a href="#Activity3">Activity 3: Let’s get familiar with our robot</a></li>
-  <li class="list-group-item"><a href="#Activity4">Activity 4: Let’s make our robot move using python functions</a></li>
-  <li class="list-group-item"><a href="#Activity5">Activity 5: How the robot senses objects</a></li>
-  <li class="list-group-item"><a href="#Activity6">Activity 6: Changing the robot’s behaviour</a></li>
-  <li class="list-group-item"><a href="#Activity7">Activity 7: Making the robot respond to time instead of distance</a></li>
-  <li class="list-group-item"><a href="#Activity8">Activity 8: Making the robot change its movement type</a></li>
-  <li class="list-group-item"><a href="#Activity9">Activity 9: Creating a state machine</a></li>
-  <li class="list-group-item"><a href="#Activity10">Activity 10: Changing the state machine behaviours</a></li>
+  <li class="list-group-item"><a href="#Activity1">Activity 1: Let's boot up the microbit and check it is working</a></li>
+  <li class="list-group-item"><a href="#Activity2">Activity 2: How do we measure a sound?</a></li>
+  <li class="list-group-item"><a href="#Activity3">Activity 3: Display a chart displaying the volume of the sound</a></li>
+  <li class="list-group-item"><a href="#Activity4">Activity 4: Let’s make a motor move</a></li>
+  <li class="list-group-item"><a href="#Activity5">Activity 5: The definition of angles</a></li>
+  <li class="list-group-item"><a href="#Activity6">Activity 6: Creating a volume meter - step 1</a></li>
+  <li class="list-group-item"><a href="#Activity7">Activity 7: Creating a volume meter - step 2</a></li>
 </ul>
 </div>
 
