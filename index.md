@@ -55,7 +55,7 @@ The idea with this acitivity isn't to become an ACE programmer inside 2 hours, b
 
 <!--Comment: This section is markdown again-->
 
-# Let's boot up the microbit and check it is working
+# Let's begin
 ---
 
 <!--Comment: End of markdown-->
@@ -82,6 +82,18 @@ First lets check you have the right equipment, you should find the following ite
 
 
 <!--Comment: End of markdown-->
+
+<!--Comment: Paragrpah spacing-->
+<br>
+<br>
+
+<!--Comment: This section is markdown again-->
+
+# Let's boot up the microbit and check it is working
+---
+
+<!--Comment: End of markdown-->
+
 
 <!--Comment: Back to html bootstrap -->
 
