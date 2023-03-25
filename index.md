@@ -146,12 +146,20 @@ The features highlighted here are:
 * Let's write some code to make the microbit display a smiley face when the program starts
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_WPcUfoRfpUpg" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<br>
 
 ### Let's make the face change
 * Microcontrollers work using a 'forever loop'
 * Let's write a function to make the face switch between sad and happy in the forever loop
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_9HTKx45VD6Rz" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<br>
+
+### Let's program a button input
+* We can use buttons as inputs
+* Let's use the buttons to make the face switch between happy and sad
+
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_JRh2FkicqE9U" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
   
 <!-- <br>
 
