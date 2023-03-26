@@ -188,18 +188,25 @@ There are two options (explained on this [page](https://microbit.org/get-started
 
 <!--Comment: Back to markdown -->
 
-### We can measure sound on the microbit and see it on the computer screen
+### Measure sound using the microbit
 * Write the program below
-* This uses serial communication to send the sound value the micro:bit measures back to the computer so that we can look at it on the computer screen
-* Try it out in the simulator first
-* Then try it out for real on your micro:bit
-  * **Note** *you need to be [connected](https://microbit.org/get-started/first-steps/set-up/) to the micro:bit for this to work*
-
+   * This uses serial communication to send the sound value the micro:bit measures back to the computer so that we can look at the value it on the computer screen. (We can imagine this like the microbit having a conversation with the computer)
 
 <div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_H2MCuTK7gUHt" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 <br>
 
-### Now lets also visualise the sound measurement
+### Now check the program works!
+* There are some instructions in the image below
+   * Try it out in the simulator first
+   * Then try it out for real on your micro:bit
+      * **Note** *you need to be [connected](https://microbit.org/get-started/first-steps/set-up/) to the micro:bit for this to work*
+* Make a note
+   * What sound values did you see in real life?
+   * What was the maximum? What was the minimum?
+
+[![serial_data_on_microBit](images/serial_data.png)]()
+
+### Now lets visualise the sound measurement on the micro:bit
 * Write the program below
 * This program allows us to plot a graph on the micro:bit leds to show how loud the sound is!
 * Check it is working correctly
