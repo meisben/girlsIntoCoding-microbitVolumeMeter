@@ -204,6 +204,8 @@ There are two options (explained on this [page](https://microbit.org/get-started
    * What sound values did you see in real life?
    * What was the maximum? What was the minimum?
 
+<!--Comment: Back to html bootstrap -->
+
 <div class="container">
   <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#question1a">Answer this question</button>
   <div id="question1a" class="collapse" markdown="1">
@@ -221,16 +223,25 @@ There are two options (explained on this [page](https://microbit.org/get-started
 </div>
 <br>
 
+<!--Comment: End of html bootstrap -->
+
+<!--Comment: Back to markdown -->
+
+
 [![serial_data_on_microBit](images/serial_data.png)]()
 
 ### Now lets visualise the sound measurement on the micro:bit
 * Write the program below
 * This program allows us to plot a graph on the micro:bit leds to show how loud the sound is!
+  * If you're interested, the documentation for the bar graph is [here](https://makecode.microbit.org/reference/led/plot-bar-graph)
 * Check it is working correctly, you can check how it works in the simulator
 
+<!--Comment: Back to html bootstrap -->
 
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_Y3EXghd8YD6W" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<br>
 
-
+<!--Comment: End of html bootstrap -->
 
 <!--Comment: This section is markdown again-->
 
