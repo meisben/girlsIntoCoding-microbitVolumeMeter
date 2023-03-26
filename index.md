@@ -294,7 +294,11 @@ This video shows how servo motors work! - If you're interested it's well worth a
 * Check that the motor is moving correctly
   * What do you observe?
 
+<!--Comment: Back to html bootstrap -->
 
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_6a5PpzfudHCg" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<br>
+<!--Comment: End of html bootstrap -->
 
 <!--Comment: Back to markdown -->
 
