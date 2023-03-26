@@ -368,8 +368,26 @@ Have a play about with the animation of the robot arm below to get a feel for ho
 
 <!--Comment: Back to markdown -->
 
-* What 
+To make the volume meter, we want to measure the sound, then tell the motor to move to a position. The louder the sound the more the motor can move. We can achieve this by dividing the maximum degrees the motor can move by the maximum volume level. 
 
+For example if the maximum sound level was 10, then the for each volume level the sound increased the motor should move by 180/10 = 18 degrees.
+
+If the volume level is 5, then the motor should move by 180/10 * 5 = 90 degrees
+
+Another way of saying this is the motor should move by volume_measured / maximum_volume * maximum_rotation. 
+
+For example if the volume level is 5, then the motor should move by 5/10 * 180 = 90 degrees
+
+Let's create a program to make this work! 
+
+* Copy the program below
+* Make sure you understand how it is functioning
+  * If you have any questions, feel free to ask a mentor!
+* You should now see your motor arm moving proportional to the volume of the sound recorded
+
+<!--Comment: Back to html bootstrap -->
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_AV5HdKhrUafK" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
+<br>
 
 <!--Comment: End of html bootstrap -->
 
@@ -390,7 +408,7 @@ Have a play about with the animation of the robot arm below to get a feel for ho
 
 <!--Comment: Back to markdown -->
 
-* What 
+So our motor is now moving with sound volume! But you may have noticed that 
 
 <!--Comment: Back to markdown -->
 
