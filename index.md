@@ -420,11 +420,11 @@ Challenge!: Try and reverse the direction yourself without looking at the code b
 </div>
 <br>
 
-
+<div style="position:relative;height:0;padding-bottom:70%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/#pub:_bxyd8JKp72LL" frameborder="0" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe></div>
 
 <!--Comment: Back to markdown -->
 
-# Spare 1
+# More challenges
 ---
 
 <!--Comment: End of markdown-->
@@ -439,23 +439,9 @@ Challenge!: Try and reverse the direction yourself without looking at the code b
 
 <!--Comment: Back to markdown -->
 
-* What 
+You've finished the bulk of the activity! Well done. 
 
-<!--Comment: Back to markdown -->
+If you've got this far, then here's some additional challenges to keep you busy
 
-# Spare 2
----
-
-<!--Comment: End of markdown-->
-
-<!--Comment: Back to html bootstrap -->
-
-<div id="Activity9" class="container p-3 my-3 bg-primary text-primary">
-<h2>Activity #9</h2>
-</div>
-
-<!--Comment: End of html bootstrap -->
-
-<!--Comment: Back to markdown -->
-
-* Our 
+1. Get creative -> make some kind of indicator to attach to the end of the volume meter
+2. 
