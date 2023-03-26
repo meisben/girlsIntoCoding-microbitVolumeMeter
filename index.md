@@ -273,7 +273,7 @@ There are two options (explained on this [page](https://microbit.org/get-started
       <div class="card-body">
       Put the motor into the holder
       <br> <br>
-      <img src="images/assembly2/mount_motor.jpg" class="img-fluid" alt="assemblyImage">
+      <img src="images/mount_motor.jpg" class="img-fluid" alt="assemblyImage">
       </div>
     </div>
   </div>
