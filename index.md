@@ -439,9 +439,11 @@ Challenge!: Try and reverse the direction yourself without looking at the code b
 
 <!--Comment: Back to markdown -->
 
-You've finished the bulk of the activity! Well done. 
+You've finished the main activity! Well done. 
 
 If you've got this far, then here's some additional challenges to keep you busy
 
 1. Get creative -> make some kind of indicator to attach to the end of the volume meter
-2. 
+2. Change the function of the buttons, when you hold button A&B together they should move the motor to 90 degrees
+3. Change the display. The display should show faces that get more angry as the sound gets louder 
+4. Change what the motor is measuring. Use acceleration instead of sound
