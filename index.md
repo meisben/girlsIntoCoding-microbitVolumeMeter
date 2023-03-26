@@ -110,6 +110,7 @@ The features highlighted here are:
 7. Download your program to the micro:bit
 8. Name your project and Save it on your computer
 
+## How to change the programming language (from python to blocks)
 
 *Note: in all of the following activities you can choose to use python or MakeCode blocks for programming the micro:bit. Choose whatever you feel is the right language for your level*
 
@@ -334,47 +335,21 @@ This video shows how servo motors work! - If you're interested it's well worth a
 
 <!--Comment: Back to markdown -->
 
-* We're still going to be using the [Wall Following](https://robotbenchmark.net/benchmark/wall_following/simulation.php) activity
-* Let's have a look at how the robot is sensing the wall
-* Open up the console by following the instructions in the image below, then run the simulation
-![image4](images/image4.png)
-* The console is where the robot prints messages to us!
-* Let's discuss what it is saying
-* Every 0.5 seconds we are asking the robot to tell us the distance of any objects from it's ultrasonic sensors
-* It is telling us the distance by printing this to the console
-* The diagram below shows how they work!
+The definition of angles is something that every roboticist shares! It's important so that we can work together to communicate program things. 
 
-[![image6](images/image6.png)](images/image6.png)
+We define an anticlockwise rotation as a positive angle. And a clockwise rotation as a negative angle!
 
+[![positive_negative_angle](images/positive-negative-angle.svg)]()
 
-**Questions**
-*Let's answer these questions as a group*
-* Can you see the moment at which the robot detects the distance to the wall? 
-* How does the robot detect the wall?
-* What should the robot do when it detects a wall?
+Have a play about with the animation of the robot arm below to get a feel for how this works.
 
-
-<div class="container">
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo5a">Hint</button>
-  <div id="demo5a" class="collapse" markdown="1">
-  Try having a look at the function **getClosestObjectToRobot()** to see what it does!
-  </div>
-</div>
-
-<br>
-
-<div class="container">
-  <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo5b">Answer</button>
-  <div id="demo5b" class="collapse" markdown="1">
-
-  * The robot detects the wall when it is 1.5 meters away
-  * The robot detects the wall using the ultrasonic sensors
-  * When the robot detects the wall we need it to change behaviour (e.g. stop, or turn, or move backwards!)
-  
-  </div>
-</div>
-
-<br>
+<!--Comment: Back to html bootstrap -->
+<iframe height="300" style="width: 100%;" scrolling="no" title="Robot arm (Joint Angles v1)" src="https://codepen.io/benisme/embed/BapYoKB?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/benisme/pen/BapYoKB">
+  Robot arm (Joint Angles v1)</a> by Ben (<a href="https://codepen.io/benisme">@benisme</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+<!--Comment: End of html bootstrap -->
 
 
 # Let's change the robot's behaviour
