@@ -408,7 +408,19 @@ Let's create a program to make this work!
 
 <!--Comment: Back to markdown -->
 
-So our motor is now moving with sound volume! But you may have noticed that 
+So our motor is now moving with sound volume! But you may have noticed that the indicator arm is moving in the wrong direction relative to the numbers! So we need to reverse the direction. How do we do that? 
+
+Challenge!: Try and reverse the direction yourself without looking at the code below. 
+
+<div class="container">
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#hint3a">Hint!</button>
+  <div id="hint3a" class="collapse" markdown="1">
+  * We need to somehow minus the value we want to move from it's maximum angle (180 degrees)
+  </div>
+</div>
+<br>
+
+
 
 <!--Comment: Back to markdown -->
 
