@@ -29,8 +29,8 @@ The idea with this acitivity isn't to become an ACE programmer inside 2 hours, b
   <li class="list-group-item"><a href="#Begin">Begin: Check you have the right equipment</a></li>
   <li class="list-group-item"><a href="#Activity1">Activity 1: Let's boot up the microbit and check it is working</a></li>
   <li class="list-group-item"><a href="#Activity2">Activity 2: How do we measure a sound?</a></li>
-  <li class="list-group-item"><a href="#Activity3">Activity 3: Display a chart displaying the volume of the sound</a></li>
-  <li class="list-group-item"><a href="#Activity4">Activity 4: Let’s make a motor move</a></li>
+  <li class="list-group-item"><a href="#Activity3">Activity 3: Let’s assemble our motor</a></li>
+  <li class="list-group-item"><a href="#Activity4">Activity 4: Let's make the motor move</a></li>
   <li class="list-group-item"><a href="#Activity5">Activity 5: The definition of angles</a></li>
   <li class="list-group-item"><a href="#Activity6">Activity 6: Creating a volume meter - step 1</a></li>
   <li class="list-group-item"><a href="#Activity7">Activity 7: Creating a volume meter - step 2</a></li>
@@ -200,14 +200,11 @@ There are two options (explained on this [page](https://microbit.org/get-started
    * Try it out in the simulator first
    * Then try it out for real on your micro:bit
       * **Note** *you need to be [connected](https://microbit.org/get-started/first-steps/set-up/) to the micro:bit for this to work*
-* Make a note
-   * What sound values did you see in real life?
-   * What was the maximum? What was the minimum?
 
 <!--Comment: Back to html bootstrap -->
 
 <div class="container">
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#question1a">Answer this question</button>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#question1a">Make sure you answer this question!</button>
   <div id="question1a" class="collapse" markdown="1">
   * What sound values do you see in the simulation? in real life?
   * What is the maximum? What is the minimum?
@@ -245,7 +242,7 @@ There are two options (explained on this [page](https://microbit.org/get-started
 
 <!--Comment: This section is markdown again-->
 
-# Let's get familiar with our robot
+# Let’s assemble our motor
 ---
 
 <!--Comment: End of markdown-->
@@ -260,45 +257,15 @@ There are two options (explained on this [page](https://microbit.org/get-started
 
 
 <!--Comment: Back to markdown -->
-
-* We'll be using the [robotbenchmark](https://robotbenchmark.net/) website.
-* Click on the **Start** button next to the **Wall Following** activity
-* Click on **Start programming this benchmark**
-* You should see the scene below
-
-
-![image1](images/image1.png)
-
-
-First we're going to get familiar with how we control our view of the 3D simulation. We need to find how many ultrasonic sensors there are! Let's control the viewpoint to count how many ultrasonic sensors there are on the robot.
-
-**Use the mouse to move the viewpoint and count the number of sensors**
-* **Rotate:** click on a 3D object in the scene with the left mouse button and drag the mouse pointer. The viewpoint will rotate around the object.
-* **Translate:** click in the scene with the right mouse button and drag the mouse pointer.
-* **Zoom:** click in the 3D scene and roll the mouse wheel. It is also possible to zoom by pressing the mouse wheel and dragging the mouse forward or backwards.
-* **Tilt:** press the mouse wheel over the 3D scene and drag the mouse to the left or to the right. Pressing simultaneously the left and right mouse buttons is equivalent to pressing the mouse wheel.
-
-
-<!--Comment: End of markdown-->
-
-<!--Comment: Back to html bootstrap -->
-
-
-
-<div class="container">
-  <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo3">Answer</button>
-  <div id="demo3" class="collapse" markdown="1">
-  There are 16 ultrasonic sensors, 4 at the front of the robot and 4 at the back!
-  </div>
-</div>
-
-<br>
-
-<!--Comment: End of html bootstrap -->
+### Assemble your motor
+* Take your equipment and assemble it as shown in the picture
+* Step 1
+* Step 2
+* Step 3
 
 <!--Comment: This section is markdown again-->
 
-# Let's make our robot move using python functions
+# Let's make the motor move
 ---
 
 <!--Comment: End of markdown-->
@@ -312,226 +279,24 @@ First we're going to get familiar with how we control our view of the 3D simulat
 <!--Comment: End of html bootstrap -->
 
 <!--Comment: Back to markdown -->
+### How is the motor moving?
+This video shows how servo motors work! - If you're interested it's well worth a quick watch. (Maybe later on)
 
-* We're still going to be using the [Wall Following](https://robotbenchmark.net/benchmark/wall_following/simulation.php) activity at the [robotbenchmark](https://robotbenchmark.net/) website. So you can keep this open all the time!
-* We're going to get our robot moving!!
-* When you're ready to program the robot, right click on it, and select **Edit controller**
-
-![image2](images/image2.png)
-
-* A window will pop up with python code in it! This is how we program our virtual robot.
-* Delete all the code in the robot controller window, by hightlighting it all (or pressing **ctrl-A**) and then pressing **delete**
-* Copy and paste the **'Activity Base Code'** code from below (click the green button) into the robot controller window, by hightlighting it all then right clicking and pressing **copy** (or pressing **ctrl+C**)
-  
-![image3](images/image3.png)
-
-* Start the simulation by following the instrucitons in the image above
-* You should see the robot approach the wall, but then reverse quickly when it senses it!
-* Have a look at the python functions that are making the robot move in the 'Start of main program' section of the code. We'll discuss these together!
-
-<div class="container">
-  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo4a">Activity Base Code</button>
-  <div id="demo4a" class="collapse" markdown="1">
-
-```python
-"""
-Purpose: Sample base code controller for the 'finite state machine' girls into coding activity
-
-Notes: Hi! we're going to be editing this program together to make the robot move. It's important 
-that this is a fun activity! If anything is unclear please ask! We're really happy to help. A lot
-of the code is already written to make this activity possible. The parts of the code that you 
-should edit are the parts betweeen the squigly lines! like this...
-
-# ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
-# ~~~~ MAKE YOUR EDITS BELOW HERE ~~~
-# ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
-
-# some edits that we make together
-
-# ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
-# ~~~~ END OF YOUR CODE EDITS ~~~
-# ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
-"""
-
-#---------------------
-# Python library imports
-#---------------------
-
-from controller import Robot # imports the language of the robot ! 
-
-#---------------------
-# Starting up the robot
-#---------------------
-
-# Get pointer to the robot. So that we can talk to it!
-robot = Robot()
-
-# Get pointer to the robot wheels motors.
-leftWheel = robot.getMotor('left wheel')
-rightWheel = robot.getMotor('right wheel')
-
-# We will use the velocity parameter of the wheels, so we need to
-# set the target position to infinity. This means they will keep turning
-# for ever unless we set their velocity to zero
-leftWheel.setPosition(float('inf'))
-rightWheel.setPosition(float('inf'))
-
-# Put all the ultrasonic sensors in an array
-sensors = []
-sensors.append(robot.getDistanceSensor("so0"))
-sensors.append(robot.getDistanceSensor("so1"))
-sensors.append(robot.getDistanceSensor("so2"))
-sensors.append(robot.getDistanceSensor("so3"))
-sensors.append(robot.getDistanceSensor("so4"))
-sensors.append(robot.getDistanceSensor("so5"))
-sensors.append(robot.getDistanceSensor("so6"))
-sensors.append(robot.getDistanceSensor("so7"))
-
-# Get the time step of the current world (the smallest time unit)
-timestep = int(robot.getBasicTimeStep())
-
-# Switch all the sensors on
-for sensor in sensors:
-    sensor.enable(timestep)
-
-
-#---------------------
-# Helpful functions for controling the robot (for the girls into coding activity)
-#---------------------
-
-def stopRobotWheels():
-    """
-    Purpose: stop the robot
-    Notes: mySpeed -> can take values from 1-9
-    """
-    leftWheel.setVelocity(0.0)
-    rightWheel.setVelocity(0.0)
-        
-        
-def startMoveForward(mySpeed):
-    """
-    Purpose: move the robot forward
-    Notes: mySpeed -> can take values from 1-9
-    """
-    leftWheel.setVelocity(mySpeed)
-    rightWheel.setVelocity(mySpeed)
-    
-def startMoveBackward(mySpeed):
-    """
-    Purpose: move the robot backward
-    Notes: mySpeed -> can take values from 1-9
-    """
-    leftWheel.setVelocity(-mySpeed)
-    rightWheel.setVelocity(-mySpeed)
-    
-def startTurnLeft(mySpeed):
-    """
-    Purpose: turn the robot left
-    Notes: mySpeed -> can take values from 1-9
-    """
-    leftWheel.setVelocity(-mySpeed)
-    rightWheel.setVelocity(mySpeed)
-    
-def startTurnRight(mySpeed):
-    """
-    Purpose: turn the robot right
-    Notes: mySpeed -> can take values from 1-9
-    """
-    leftWheel.setVelocity(mySpeed)
-    rightWheel.setVelocity(-mySpeed)
-    
-    
-
-def getClosestObjectToRobot():
-    """
-    Purpose: Return the direction and distance for the closest object to the robot
-    
-    Notes: Refer to the diagrams on the girls into coding webpage for the distance
-    convention. The distance is returned in meters. The value returned by the getValue() 
-    method of the distance sensors corresponds to a physical value (here we have a sonar, 
-    so it is the strength of the sonar ray). This function makes a conversion to a
-    distance value in meters.
-    """
-    
-    # Make local variables
-    maxSensorRange = 1.6 # in meters
-    currentSensorID = -1
-    lowestSensorDistance = maxSensorRange
-    lowestSensorID = None
-    
-    # Find the closest object to the robot and save the direction and distance (in m)
-    for sensor in sensors:
-        # calculate the distance in m (this formula is provided by the sensor manufacturer)
-        currentSensorDistance = ((1000 - sensor.getValue()) / 1000) * 5
-        currentSensorID = currentSensorID + 1
-        
-        if currentSensorDistance < lowestSensorDistance:
-            lowestSensorDistance = currentSensorDistance
-            lowestSensorID = currentSensorID
-    
-    # If no object is found, then return 'None' otherwise return the value       
-    if lowestSensorID != None:
-        currentDirection = lowestSensorID -3
-    else:
-        currentDirection = None
-        lowestSensorDistance = None
-        
-    return currentDirection, lowestSensorDistance
-
-#---------------------
-# Start of main program
-#---------------------
-
-# Our starting message for the program
-print("--------------")
-print("Here is an example of how we write a message to the console")
-print("Program starting !!")
-print("--------------")
-
-
-# Move forward 
-startMoveForward(5)
-# Keep going until we are 20cm away from the wall
-while True:
-    robot.step(500) # keep going for 0.5 seconds (value is in milli seconds (ms))
-    direction, distance = getClosestObjectToRobot() # Get the info on the closest object
-    print("direction = {}, distance = {}").format(direction, distance)  # Print the info on the closest object
-    # If there is an object too close, then stop moving forward!
-    if distance != None and distance < 0.2:
-        break
-    
-
-# ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
-# ~~~~ MAKE YOUR EDITS BELOW HERE ~~~
-# ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
-    
-    
-print("hello :)")
-    
-# Move backward 
-startMoveBackward(5)
-# Keep going until we are 1m away from the wall
-while True:
-    robot.step(500)
-    direction, distance = getClosestObjectToRobot()
-    print("direction = {}, distance = {}").format(direction, distance) 
-    # If the object is too far, then stop moving backward!
-    if distance != None and distance > 1:
-        break
-    
-    
-# ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
-# ~~~~ END OF YOUR CODE EDITS ~~~
-# ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*
-    
-stopRobotWheels()
-```
-
-  </div>
-</div>
-
+<!--Comment: Back to html bootstrap -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1WnGv-DPexc?start=259" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <br>
+<!--Comment: End of html bootstrap -->
 
+### A simple program to make the motor move
+* Write the program below
+  * We want to use the buttons to move the motor into different positions 
+* Download it to the micro:bit
+* Check that the motor is moving correctly
+  * What do you observe?
+
+
+
+<!--Comment: Back to markdown -->
 
 # Let's see how the robot is sensing objects
 ---
