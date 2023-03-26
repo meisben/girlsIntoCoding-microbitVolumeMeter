@@ -292,7 +292,24 @@ This video shows how servo motors work! - If you're interested it's well worth a
   * We want to use the buttons to move the motor into different positions 
 * Download it to the micro:bit
 * Check that the motor is moving correctly
+
+
+<div class="container">
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#question2a">Make sure you answer this question!</button>
+  <div id="question2a" class="collapse" markdown="1">
   * What do you observe?
+  * Which way is the motor rotating when you push the buttons?
+  </div>
+</div>
+<br>
+<div class="container">
+  <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#answer2a">Answer</button>
+  <div id="answer2a" class="collapse" markdown="1">
+  * When you push the button for zero degrees it should move clockwise
+  * When you push the button for 180 degrees it should move anticlockwise
+  </div>
+</div>
+<br>
 
 <!--Comment: Back to html bootstrap -->
 
@@ -302,7 +319,7 @@ This video shows how servo motors work! - If you're interested it's well worth a
 
 <!--Comment: Back to markdown -->
 
-# Let's see how the robot is sensing objects
+# How angles are defined
 ---
 
 <!--Comment: End of markdown-->
