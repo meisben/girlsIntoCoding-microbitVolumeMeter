@@ -205,12 +205,21 @@ There are two options (explained on this [page](https://microbit.org/get-started
    * What was the maximum? What was the minimum?
 
 <div class="container">
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo7a">Question</button>
-  <div id="demo7a" class="collapse" markdown="1">
-  * What sound values did you see in real life?
-  * What was the maximum? What was the minimum?
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#question1a">Answer this question</button>
+  <div id="question1a" class="collapse" markdown="1">
+  * What sound values do you see in the simulation? in real life?
+  * What is the maximum? What is the minimum?
   </div>
 </div>
+<br>
+<div class="container">
+  <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#answer1a">Answer</button>
+  <div id="answer1a" class="collapse" markdown="1">
+  * In the simulation you should see a minimum of 0, and a maximum of 255
+  * In real life, the values seem to range from 0 to 131!
+  </div>
+</div>
+<br>
 
 [![serial_data_on_microBit](images/serial_data.png)]()
 
