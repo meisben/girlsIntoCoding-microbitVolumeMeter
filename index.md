@@ -80,6 +80,8 @@ The idea with this acitivity isn't to become an ACE programmer inside 2 hours, b
 * 1 x Servo motor and stand
 * 1 x Servo motor arm
 
+[![equipment](images/equipment.jpg)]()
+
 ## About the Micro:bit
 If you haven't used one before then take a look at this video
 
@@ -243,7 +245,7 @@ There are two options (explained on this [page](https://microbit.org/get-started
 
 <!--Comment: This section is markdown again-->
 
-# Let’s assemble our motor
+# Let’s assemble our motor and volume indicator
 ---
 
 <!--Comment: End of markdown-->
@@ -258,11 +260,86 @@ There are two options (explained on this [page](https://microbit.org/get-started
 
 
 <!--Comment: Back to markdown -->
-### Assemble your motor
-* Take your equipment and assemble it as shown in the picture
-* Step 1
-* Step 2
-* Step 3
+
+<div id="accordion">
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseOneD">
+        Mount the motor
+      </a>
+    </div>
+    <div id="collapseOneD" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+      Put the motor into the holder
+      <br> <br>
+      <img src="images/assembly2/mount_motor.jpg" class="img-fluid" alt="assemblyImage">
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwoD">
+        Attach the volume indicator arm
+      </a>
+    </div>
+    <div id="collapseTwoD" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        <img src="images/attach_volume_indicator_arm.jpg" class="img-fluid" alt="assemblyImage">
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThreeD">
+        Put the microbit into the kitronik_robotics_board
+      </a>
+    </div>
+    <div id="collapseThreeD" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Make sure it is the right way round!
+        <br><br>
+        <img src="images/microbit_into_kitronik_robotics_board.jpg" class="img-fluid" alt="assemblyImage">
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFourD">
+        Plug the motor into the robotics board
+      </a>
+    </div>
+    <div id="collapseFourD" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Make sure it is plugged into servo slot #1
+        <img src="images/plug_motor.jpg" class="img-fluid" alt="assemblyImage">
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseFiveD">
+        Attach the battery
+      </a>
+    </div>
+    <div id="collapseFiveD" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Attach the battery, make sure the negative and positive leads are the right way around!
+        <img src="images/attach_battery.jpg" class="img-fluid" alt="assemblyImage">
+        <br><br>
+        Add the number indicator. Great! You should now have the complete assembly ready
+        <img src="images/complete.jpg" class="img-fluid" alt="assemblyImage">
+        <br><br>
+      </div>
+    </div>
+  </div>
+
+</div>
+
 
 <!--Comment: This section is markdown again-->
 
