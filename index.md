@@ -204,13 +204,20 @@ There are two options (explained on this [page](https://microbit.org/get-started
    * What sound values did you see in real life?
    * What was the maximum? What was the minimum?
 
+<div class="container">
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo7a">Question</button>
+  <div id="demo7a" class="collapse" markdown="1">
+  * What sound values did you see in real life?
+  * What was the maximum? What was the minimum?
+  </div>
+</div>
+
 [![serial_data_on_microBit](images/serial_data.png)]()
 
 ### Now lets visualise the sound measurement on the micro:bit
 * Write the program below
 * This program allows us to plot a graph on the micro:bit leds to show how loud the sound is!
-* Check it is working correctly
-* If not, then use the troubleshooting program below
+* Check it is working correctly, you can check how it works in the simulator
 
 
 
@@ -730,13 +737,6 @@ while True:
 <!--Comment: End of markdown-->
 
 <!--Comment: Back to html bootstrap -->
-
-<div class="container">
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo7a">Hint</button>
-  <div id="demo7a" class="collapse" markdown="1">
-  Look at the line *"robot.step(500)"*. This is the number of milliseconds that passes each time the robot moves. If we count these milliseconds we can change the IF statement!
-  </div>
-</div>
 
 <br>
 
