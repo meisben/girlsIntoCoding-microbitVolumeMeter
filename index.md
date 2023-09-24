@@ -80,7 +80,7 @@ The idea with this acitivity isn't to become an ACE programmer inside 2 hours, b
 * 1 x Servo motor and stand
 * 1 x Servo motor arm
 
-![equipment](images/equipment.jpg)
+[![equipment](images/equipment.jpg)](images/equipment.jpg)
 
 ## About the Micro:bit
 If you haven't used one before then take a look at this video
